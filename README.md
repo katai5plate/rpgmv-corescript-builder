@@ -28,8 +28,8 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。（解凍
   +- js/
   |   +- libs/
   |   +- plugins/
-  |       +- H2A_CoreScriptBuilder.js
-  |       `- その他プロジェクトに入ってるプラグイン
+  |   |   +- H2A_CoreScriptBuilder.js
+  |   |   `- その他プロジェクトに入ってるプラグイン
   |   +- rpg_core.js
   |   +- rpg_managers.js
   |   +- rpg_objects.js
@@ -67,4 +67,4 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。（解凍
 `コアスクリプトを上書きしますか？` と出るので、指示に従って進める。
 
 `完了しました。` と出たら完了。  
-`適当なプロジェクト/js/` フォルダにあるコアスクリプトは、アツマール版コアスクリプトです。
+`適当なプロジェクト/js/` フォルダにあるコアスクリプト (`rpg_core.js`, `rpg_managers.js`, `rpg_objects.js`, `rpg_scenes.js`, `rpg_sprites.js`, `rpg_windows.js`) は、アツマール版コアスクリプトです。
