@@ -9,7 +9,7 @@
 ### 事前準備
 
 まず、[ここ](https://github.com/katai5plate/rpgmv-corescript-builder/archive/refs/heads/main.zip) からキットをダウンロードし、解凍する。  
-それを適当な MV のプロジェクトに上書きする。
+それを適当な MV のプロジェクトに上書きする。（`README.md` はなくてもいい）
 
 次に、[ここ](https://github.com/rpgtkoolmv/corescript/releases) からコアスクリプトをダウンロードし、解凍する。  
 その中身を MV のプロジェクトの `src` フォルダの中に入れる。
