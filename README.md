@@ -1,0 +1,2 @@
+# rpgmv-corescript-builder
+ツクールMV上からアツマール版コアスクリプトをビルドするプラグイン
