@@ -14,7 +14,7 @@
 次に、[ここ](https://github.com/rpgtkoolmv/corescript/releases) からコアスクリプトをダウンロードし、解凍する。  
 その中身を MV のプロジェクトの `src` フォルダの中に入れる。
 
-MV のプロジェクトにある `node_modules.zip` を解凍する。
+MV のプロジェクトにある `node_modules.zip` を解凍する。（解凍したら消していい）
 
 するとこんな感じになる
 
@@ -28,14 +28,15 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。
   +- js/
   |   +- libs/
   |   +- plugins/
-  |       +- H2A_CoreScriptBuilder.js
-  |       `- その他プロジェクトに入ってるプラグイン
+  |   |   +- H2A_CoreScriptBuilder.js
+  |   |   `- その他プロジェクトに入ってるプラグイン
   |   +- rpg_core.js
   |   +- rpg_managers.js
   |   +- rpg_objects.js
   |   +- rpg_scenes.js
   |   +- rpg_sprites.js
   |   +- rpg_windows.js
+  |   `- その他いろいろ
   +- movies/
   +- node_modules/
   |   +- concat-with-sourcemaps/
@@ -50,8 +51,9 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。
   |   `- その他ごちゃごちゃしたいろんなファイル
   +- Game.rpgproject
   +- index.html
-  +- node_modules.zip
-  `- package.json
+  +- (node_modules.zip)
+  +- package.json
+  `- (README.md)
 ```
 
 ちゃんとこんなふうなファイル構造になったなら、事前準備は完了。
@@ -65,4 +67,4 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。
 `コアスクリプトを上書きしますか？` と出るので、指示に従って進める。
 
 `完了しました。` と出たら完了。  
-`適当なプロジェクト/js/` フォルダにあるコアスクリプトは、アツマール版コアスクリプトです。
+`適当なプロジェクト/js/` フォルダにあるコアスクリプト (`rpg_core.js`, `rpg_managers.js`, `rpg_objects.js`, `rpg_scenes.js`, `rpg_sprites.js`, `rpg_windows.js`) は、アツマール版コアスクリプトです。

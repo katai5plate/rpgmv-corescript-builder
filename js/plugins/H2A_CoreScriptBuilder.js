@@ -35,7 +35,7 @@
         fs.readFileSync("./src/" + name + ".json").toString()
       );
 
-      let concat = new Concat(true, `${name}.js`, "\n");
+      var concat = new Concat(true, `${name}.js`, "\n");
 
       order.forEach((fileName) => {
         var path = `./src/${fileName}`;
