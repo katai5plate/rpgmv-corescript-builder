@@ -1,3 +1,12 @@
+/*:
+ * @plugindesc コアスクリプトをアツマール版コアスクリプトに上書きする
+ * @author Had2Apps
+ * @help
+ * 説明書：https://github.com/katai5plate/rpgmv-corescript-builder
+ *
+ * 説明書をよく読み、バックアップをとること。データが消えても責任は取りません。
+ */
+
 (function () {
   if (!confirm("コアスクリプトを上書きしますか？")) return;
   if (!confirm("ちゃんとバックアップしましたか？")) return;
