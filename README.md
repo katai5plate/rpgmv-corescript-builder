@@ -75,3 +75,5 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。（解凍
 
 `完了しました。` と出たら完了。  
 `適当なプロジェクト/js/` フォルダにあるコアスクリプト (`rpg_core.js`, `rpg_managers.js`, `rpg_objects.js`, `rpg_scenes.js`, `rpg_sprites.js`, `rpg_windows.js`) は、アツマール版コアスクリプトです。
+
+最後に、`適当なプロジェクト/src/js/libs` の中身を `適当なプロジェクト/js/libs` に上書きすれば完了。
