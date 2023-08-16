@@ -28,10 +28,12 @@
       "rpg_sprites",
       "rpg_windows",
     ].forEach(function (name) {
-      if (!fs.existsSync(`./src/${name}.json`))
+      if (!fs.existsSync("./src/" + name + ".json"))
         throw new Error("必要なファイルがないです。手順ちゃんとあってます？");
 
-      var order = JSON.parse(fs.readFileSync(`./src/${name}.json`).toString());
+      var order = JSON.parse(
+        fs.readFileSync("./src/" + name + ".json").toString()
+      );
 
       let concat = new Concat(true, `${name}.js`, "\n");
 
@@ -40,8 +42,8 @@
         concat.add(path, fs.readFileSync(path).toString());
       });
 
-      fs.writeFileSync(`./js/${name}.js`, concat.content);
-      fs.writeFileSync(`./js/${name}.js.map`, concat.sourceMap);
+      fs.writeFileSync("./js/" + name + ".js", concat.content);
+      fs.writeFileSync("./js/" + name + ".js.map", concat.sourceMap);
     });
   } catch (error) {
     alert("エラーが発生したので中断しました。" + error.toString());
