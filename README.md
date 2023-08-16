@@ -29,14 +29,14 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。（解凍
   |   +- libs/
   |   +- plugins/
   |   |   +- H2A_CoreScriptBuilder.js
-  |   |   `- その他プロジェクトに入ってるプラグイン
+  |   |   `- (その他プロジェクトに入ってるプラグイン)
   |   +- rpg_core.js
   |   +- rpg_managers.js
   |   +- rpg_objects.js
   |   +- rpg_scenes.js
   |   +- rpg_sprites.js
   |   +- rpg_windows.js
-  |   `- その他いろいろ
+  |   `- (その他いろいろ)
   +- movies/
   +- node_modules/
   |   +- concat-with-sourcemaps/
@@ -48,7 +48,14 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。（解凍
   |   +- plugins/
   |   +- template/
   |   +- tests/
-  |   `- その他ごちゃごちゃしたいろんなファイル
+  |   +- (省略)
+  |   +- rpg_core.json
+  |   +- rpg_managers.json
+  |   +- rpg_objects.json
+  |   +- rpg_scenes.json
+  |   +- rpg_sprites.json
+  |   +- rpg_windows.json
+  |   `- (その他ごちゃごちゃしたいろんなファイル)
   +- Game.rpgproject
   +- index.html
   +- (node_modules.zip)
