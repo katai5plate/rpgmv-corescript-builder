@@ -14,7 +14,7 @@
 次に、[ここ](https://github.com/rpgtkoolmv/corescript/releases) からコアスクリプトをダウンロードし、解凍する。  
 その中身を MV のプロジェクトの `src` フォルダの中に入れる。
 
-MV のプロジェクトにある `node_modules.zip` を解凍する。
+MV のプロジェクトにある `node_modules.zip` を解凍する。（解凍したら消していい）
 
 するとこんな感じになる
 
@@ -36,6 +36,7 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。
   |   +- rpg_scenes.js
   |   +- rpg_sprites.js
   |   +- rpg_windows.js
+  |   `- その他いろいろ
   +- movies/
   +- node_modules/
   |   +- concat-with-sourcemaps/
@@ -50,8 +51,9 @@ MV のプロジェクトにある `node_modules.zip` を解凍する。
   |   `- その他ごちゃごちゃしたいろんなファイル
   +- Game.rpgproject
   +- index.html
-  +- node_modules.zip
-  `- package.json
+  +- (node_modules.zip)
+  +- package.json
+  `- (README.md)
 ```
 
 ちゃんとこんなふうなファイル構造になったなら、事前準備は完了。
